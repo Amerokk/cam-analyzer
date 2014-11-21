@@ -81,9 +81,7 @@ IJ.log("***");
 DirectoryChooser dc = new DirectoryChooser("Select where are your images to preprocess");
 
 chosenDirPath = dc.getDirectory();
-
-
-
+// A last test, we are getting tired...
 
 </bsh>
 <button> 2 line 1
