@@ -21,7 +21,7 @@
 print("Running");
 
 
-run("Action Bar","/plugins/ActionBar/Shared Bars/CAM_Analyzer.ijm");
+run("Action Bar","/plugins/ActionBar/CamAnalyzer/CAM_Analyzer.ijm");
 exit();
 
 /*
@@ -77,9 +77,12 @@ label=Preprocess
 icon=new_action_bar/image1_1.png
 arg=<bsh>
 //showMessage("You pressed button 1 line 1");
-// Dialog to prompt user for Directory
+IJ.log("***");
 DirectoryChooser dc = new DirectoryChooser("Select where are your images to preprocess");
 
+chosenDirPath = dc.getDirectory();
+
+IJ.log("Working Directory: "+chosenDirPath);
 
 
 </bsh>
