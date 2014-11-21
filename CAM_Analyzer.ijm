@@ -82,7 +82,7 @@ DirectoryChooser dc = new DirectoryChooser("Select where are your images to prep
 
 chosenDirPath = dc.getDirectory();
 
-IJ.log("Working Directory: "+chosenDirPath);
+
 
 
 </bsh>
