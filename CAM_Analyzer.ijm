@@ -77,6 +77,7 @@ label=Preprocess
 icon=new_action_bar/image1_1.png
 arg=<bsh>
 //showMessage("You pressed button 1 line 1");
+// Dialog to prompt user for Directory
 DirectoryChooser dc = new DirectoryChooser("Select where are your images to preprocess");
 
 
