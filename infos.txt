@@ -1,1 +1,5 @@
 Infos sur le plugin et instructions
+
+Section Installation
+
+Section Utilisation
